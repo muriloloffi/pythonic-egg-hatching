@@ -1,23 +1,24 @@
-#Python 3 number types.
-#Integers (int) - whole numbers
-# print(2 + 4)  #6
-# print(2 - 4)  #-2
-# print(2 * 4)  #8
-# print(2 / 4, '\n')  #0.5, '\n' after the comma prints a second new line
+# Operator precedence
 
-# print(type(2 + 4))  #<class 'int'>
-# print(type(2 - 4))  #<class 'int'>
-# print(type(2 * 4))  #<class 'int'>
-# print(type(2 / 4), '\n')  #<class 'float'>, again, using '\n' after a comma will print a second new line
+print(
+    20 - 3 * 4,
+    "because 20 - 3 * 4 has the precedence of multiplication over subtraction",
+)
+print((20 - 3) + 2**2)
+print((5 + 4) * 10 / 2)  # divisions always output a float
 
-# print(type(10 + 1.1)) #float - automatic conversion
-# print(type(9.9 + 1.1), 9.9 + 1.1, '\n') #keeps the type
+# Precedence:
 
-# print(2 ** 2) #two to the power of two
-# print(5 // 4) #division that returns a integer "rounded down"
-# print(6 % 4, '\n\n') #modulo: remainder of a division; '\n\n' adds a second and a third line
+# ()
+# **
 
-# Math functions
-print(round(3.4))
-print(abs(-20))
+print((5 + 4) * 10 / 2)  # divisions always output a float
+print(
+    5 + 4 * 10 / 2
+)  # multiplication and division have the same precedence and are evaluated from left to right
 
+# Precedence:
+# ()
+# **
+# * /
+# + -
