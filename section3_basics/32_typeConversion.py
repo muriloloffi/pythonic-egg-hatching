@@ -16,8 +16,7 @@ print(c)
 # But only if the strings are number
 
 d = "3.4"
-# e = int(d)
-# print(e)  # This will throw an error
+# print(int(d))  # This will throw an error
 
 invalid_str = "123abc"
 # int(invalid_str)  # Raises ValueError: invalid literal for int() with base 10
