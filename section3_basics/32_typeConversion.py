@@ -16,8 +16,8 @@ print(c)
 # But only if the strings are number
 
 d = "3.4"
-e = int(d)
-print(e)  # This will throw an error
+# e = int(d)
+# print(e)  # This will throw an error
 
 invalid_str = "123abc"
 # int(invalid_str)  # Raises ValueError: invalid literal for int() with base 10
@@ -31,3 +31,7 @@ print(hex_int)  # Output: 255
 
 invalid_base_str = "10101"
 # int(invalid_base_str, base=37)  # Raises ValueError: int() base must be >= 2 and <= 36
+
+valid_base = "zzz"
+valid_maxium_base = int(valid_base, base=36)
+print(valid_maxium_base)
