@@ -17,6 +17,8 @@ weather = (
     # fmt: on
     # Escape sequence is used to print every quote inside double quotes
 )
+# P.S. The comments "fmt:" above are used to disable the formatting of the code so that
+# it doesn't try to fix the quotes and ruin the example
 
 print(weather)
 
