@@ -29,4 +29,5 @@ print("format(): Hi, {n}. You are {a} years old.".format(n=name, a=age))
 # Bonus: we can also use the format method to specify the number of decimal places.
 print("format(): Hi, {n}. You are {a:.2f} years old.".format(n=name, a=age))
 
-# Let's agree that f-strings are the way to go. xD
+# Let's agree that formatted strings with f in front are the way to go,
+# for short we usually call them f-strings.
