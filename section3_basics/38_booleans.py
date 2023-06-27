@@ -2,7 +2,7 @@
 
 # classic boolean behavior
 
-name = "Andrei"  # string
+name = "Murilo"  # string
 is_cool = False  # boolean
 
 is_cool = True
@@ -11,9 +11,9 @@ is_cool = True
 # It's a cornerstone of programming.
 
 if is_cool:  # if is_cool is True
-    print("Andrei is cool")
+    print("Murilo is cool")
 else:
-    print("Andrei is not cool")
+    print("Murilo is not cool")
 
 # A bool conversion function converts values to booleans according to the following rules:
 # 1. False, None, 0, "", (), [], {} are all False
