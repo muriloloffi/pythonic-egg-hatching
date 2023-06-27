@@ -18,7 +18,7 @@ ___
 
 print(long_string)
 
-first_name = "Andrei"
+first_name = "João"
 last_name = "Silva"
 full_name = first_name + " " + last_name
 
