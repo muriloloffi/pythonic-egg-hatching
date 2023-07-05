@@ -26,6 +26,9 @@ li4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # This is the first data structure we will look at. We will see that lists are very
 # versatile and can be used in many different ways.
 
+# The key difference between strings and lists is that strings are immutable, whereas
+# lists are mutable.
+
 # Taking another example, if we had a shopping cart, we could store the items in a list:
 
 amazon_cart = ["notebooks", "sunglasses", "toys", "grapes"]
