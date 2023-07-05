@@ -10,8 +10,9 @@ print(selfish[0])
 # Python has a feature that allows to grab different parts of a string
 # This is called slicing, the operator is a colon:
 # [start:stop:stepover]
+# The stop is not inclusive, so the character at the stop index is not included
 
-print(selfish[0:2])
+print(selfish[0:2])  # This will print characters 0 and 1
 
 numbers = "01234567"
 
