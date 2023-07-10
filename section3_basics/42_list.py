@@ -39,3 +39,8 @@ print(
     """personal note here: I am not sure whether len() is the most genius or non-sense
     way a programming language implements item counting from different data types."""
 )
+
+# List arithmetics
+# You can add lists together:
+li31 = li + li2
+print("li31: ", li31)
