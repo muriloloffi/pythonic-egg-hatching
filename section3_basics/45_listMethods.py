@@ -35,7 +35,7 @@ basket.pop()
 print(basket)  # [1, 2, 3, 4, 100, 5]
 basket.pop(0)  # Removes the item at the index
 print(basket)  # [2, 3, 4, 100, 5]
-basket.remove(4)  # Removes the item with the value
+basket.remove(4)  # Removes the item with the specified value
 
 # However, pop returns the item that was removed
 popped_item = basket.pop()  # pop returns the item from the index it was removed
