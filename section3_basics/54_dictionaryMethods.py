@@ -18,5 +18,16 @@ print(user.get("age"))  # None
 user2 = dict(name="JohnJohn", age=0)
 print(user2)  # {'name': 'JohnJohn', 'age': 0}
 
-user3 = dict.fromkeys(["name", "age", "height"])
+user3 = dict.fromkeys(["name", "age", "height"])  # There's an optional second argument,
+# which defaults to None, that sets the value used for the keys. Note that the same
+# object passed as argument is used for all keys. That can cause reference problems with
+# mutable objects.
 print(user3)  # Values are None by default
+
+# To overcome the problem of having mutable objects as default values, we can use a dict
+# comprehension, as shown below.
+user4 = {
+    value: None
+    for value in ["name", "age", "height", "basket", "greet", "inventory", "status"]
+}
+print(user4)  # No more reference problems
