@@ -1,6 +1,6 @@
 # Tuple
 
-# A tuple are like lists, but inlike lists, tuples are immutable.
+# A tuple are like lists, but unlike lists, tuples are immutable.
 my_tuple = (1, 2, 3, 4, 5)
 # In lists, we could change the value of an index.
 try:
