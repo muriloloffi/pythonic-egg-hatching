@@ -40,3 +40,15 @@ print(
     f"my_set | your_set: \n{my_set | your_set} \n| operator is a shortcut for .union()"
 )
 print(f"While & is a shortcut for .intersection():\n{my_set & your_set}")
+
+my_set = {4, 5}
+your_set = {4, 5, 6, 7, 8, 9, 10}
+print(
+    f"resetting the sets\nmy_set: {my_set}\nyour_set: {your_set}\n",
+    "Is 'my_set' a subset of 'your_set'?\n",
+    f"my_set.issubset(your_set): {my_set.issubset(your_set)} \n'my_set' is a subset of 'your_set'.",
+)
+
+print(f"Is 'your_set' a superset of 'my_set'?\n{your_set.issuperset(my_set)}")
+
+# Subsets are a slice of a set, while supersets are the whole, or broader spectrum, of a set
