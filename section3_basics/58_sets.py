@@ -13,9 +13,16 @@ print(my_set, "We tried to add 2, but it was already in the set.")
 # How'd you do it? I did it like this:
 my_list = [1, 2, 3, 4, 5, 5]
 my_set = set(my_list)
-print(list(my_set))
+print(
+    list(my_set),
+    "Here, we converted a list to a set, then back to a list, to remove duplicates",
+)
 
 # print(my_set[0]) doesn't work, because sets doesn't support indexing
 # to Work around this, we can use the in keyword
 print(1 in my_set)
 print(100 in my_set)
+
+new_set = my_set.copy()
+my_set.clear()
+print(new_set, "We copied the set to a new set")
