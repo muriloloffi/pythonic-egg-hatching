@@ -1,7 +1,7 @@
 # for Loops
 
 # for loops are used to iterate through a sequence (list, tuple, string) or
-# other iterable objects.
+# other iterable objects. An iterable is something that can be looped over.
 
 for item in "Zero to Mastery":
     print(item)
@@ -11,8 +11,9 @@ for item in "Zero to Mastery":
 # The variable name can be anything you want. The following code will produce
 # the same result:
 
-for i in "Zero to Mastery":
-    print(i)
+print(end="\n")
+for bitsybit in "Zero to Mastery":
+    print(bitsybit)
 
 # It is also possible to iterate through a list:
 
