@@ -1,6 +1,6 @@
 # Return keyword
 
-# Python functions, when invoked, can have a returning value, which can be used
+# Python functions, when invoked, always have a returning value, which can be used
 # or assigned to a variable. The value you get when invoking the function 
 # depends on what is defined in the function declaration by the "return" 
 # statement. If a function lacks a return statement, however, the function 
