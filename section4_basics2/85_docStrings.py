@@ -1,10 +1,10 @@
 # Doc Strings
 
 # Doc Strings are strings declared within a function or method that details
-# its purpose. Amongst the goals of doc strings are: to provide details for text 
-# editors hover tooltips on functions or methods; provide details for the 
-# help(function) built-in function; provide the content for the __doc__ magic
-# method.
+# its purpose. Amongst the goals of doc strings are: to provide details for IDEs
+# and text editors hover tooltips on functions or methods; provide details for 
+# the help(function) built-in function; provide the content for the __doc__ 
+# magic method.
 
 def test(a):
   '''
