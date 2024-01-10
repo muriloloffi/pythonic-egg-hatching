@@ -7,16 +7,14 @@ def highest_even(li: list) -> int:
       highest_even = number if highest_even < number else highest_even
   return highest_even
 
-print(highest_even([10,2,3,4,8,11]))
+print(highest_even([10,2,3,4,8,11,12,24,23,21]))
 
 def highest_evenV2(li: list) -> int:
-  highest_number = max(li)
-  while highest_number % 2 != 0:
+  while (highest_number := max(li)) % 2 != 0:
     li.remove(highest_number)
-    highest_number = max(li)
   return highest_number
 
-print(highest_evenV2([10,2,3,4,8,11]))
+print(highest_evenV2([10,2,3,4,8,11,12,24,23,21]))
 
 def highest_evenV3(li: list) -> int:
   evens = []
@@ -25,4 +23,4 @@ def highest_evenV3(li: list) -> int:
       evens.append(item)
   return max(evens)
 
-print(highest_evenV3([10,2,3,4,8,11]))
+print(highest_evenV3([10,2,3,4,8,11,12,24,23,21]))
