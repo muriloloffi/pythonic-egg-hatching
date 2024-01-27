@@ -1,6 +1,12 @@
 # Creating our own objects
 
 
+# The following lines of code declare a PlayerCharacter class, which is sort of
+# a blueprint to create objects with types namesake to the class. Read these
+# lines, noting the way they are written. Then, continue to the explanation
+# below the code.
+
+
 class PlayerCharacter:
     def __init__(self, name, age) -> None:
         self.name = name
