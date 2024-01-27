@@ -8,9 +8,9 @@
 
 # In OOP, data is structured in so called objects, which are meant to represent
 # a more intuitive and natural representation of real world objects. In reality,
-# objects of OOP are just a convention of data structuring. The data of an
+# objects of OOP are just a convention for data structuring. The data of an
 # object is comprised of variables and functions that have a common purpose. A
-# working object in the computer's memory is called an istance. That is brought
+# working object in the computer's memory is called an instance. That is brought
 # up by a blueprint, called a class. In other words, classes are the piece of
 # code that declares what every istance of an object should look like, i.e. what
 # variables they should contain, what functions they can perform (called methods
