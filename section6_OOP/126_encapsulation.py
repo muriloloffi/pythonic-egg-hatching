@@ -67,7 +67,7 @@ print(x.bar)
 
 class User:
     def sign_in(self):
-        print("loggin logic")
+        print("log-in logic")
 
 
 class Wizard(User):
@@ -92,7 +92,14 @@ class Archer(User):
 char1 = Archer("Legolas", 100)
 char2 = Wizard("Gandalf", 99)
 
+char1.sign_in()
+char2.sign_in()
+
 char1.attack()
+
 char2.attack()
+
 char1.attack()
 char1.attack()
+
+print(isinstance(char1, User))
