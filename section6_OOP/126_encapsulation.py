@@ -89,17 +89,39 @@ class Archer(User):
         print(f"{self.name}: {self.arrows_number} arrows left")
 
 
-char1 = Archer("Legolas", 100)
-char2 = Wizard("Gandalf", 99)
+archer1 = Archer("Legolas", 100)
+wizard1 = Wizard("Gandalf", 99)
 
-char1.sign_in()
-char2.sign_in()
+archer1.sign_in()
+wizard1.sign_in()
 
-char1.attack()
+archer1.attack()
 
-char2.attack()
+wizard1.attack()
 
-char1.attack()
-char1.attack()
+archer1.attack()
+archer1.attack()
 
-print(isinstance(char1, User))
+print(isinstance(archer1, User))
+
+# Polymorphism
+
+# Last but not least, polymorphism is the characteristic defined by the ability
+# of an object's methods behaving differently depending on the context it was
+# called. For example, consider our character classes above, Archer and Wizard.
+# Both of them implement the attack method, but the way these method behave is
+# different in each character. Another situation which is related, although not
+# required, is when the class they extend from implements the method. In this
+# case, the children classes can override a method from the parent class to
+# change its behavior. Having these implemented, the objects can be used as
+# arguments for another method or function and have its method called, returning
+# different behaviors, no matter what object was passed. For example:
+
+
+def player_attack(character):
+    character.attack()
+
+
+print("Using polymorphic method call:")
+player_attack(archer1)
+player_attack(wizard1)
