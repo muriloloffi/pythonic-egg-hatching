@@ -18,7 +18,7 @@ class PlayerCharacter:
 
 # To create our own objects in Python, we first define the type of the object
 # with the "class" keyword. Keep in mind that the convention for classes is that
-# they should use cammel casing, i.e. the starting letters for every word is
+# they should use camel casing, i.e. the starting letters for every word is
 # capital. To setup the attributes that every object our class creates, the
 # __init__ magic method must be used, a.k.a. __init__ dunder method. This method
 # is also called a constructor, because it's called whenever we create a new

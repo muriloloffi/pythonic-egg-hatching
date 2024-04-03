@@ -1,6 +1,6 @@
 # Matrix
 
-# A matrix is a bidimensional list, that is, an list of lists.
+# A matrix is a two-dimensional list, that is, an list of lists.
 
 # fmt: off
 # Comment above prevents automatic formatting of the lines below

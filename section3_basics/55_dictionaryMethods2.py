@@ -18,7 +18,7 @@ print(user.values())  # dict_values([[1, 2, 3], 'hello', 20])
 print(
     user.items()
 )  # dict_items([('basket', [1, 2, 3]), ('greet', 'hello'), ('age', 20)])
-# This last method returns a different synthax. This is because it's actually a tuple.
+# This last method returns a different syntax. This is because it's actually a tuple.
 # We're gonna hold off on tuples for now.
 
 # We can also clear the dictionary:

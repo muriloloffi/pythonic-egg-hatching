@@ -30,7 +30,7 @@ class Sally(Cat):
         return f"{sounds}"
 
 
-# 1 Add nother Cat
+# 1 Add another Cat
 class Groot(Cat):
     def sing(self, sounds):
         return f"{sounds}"

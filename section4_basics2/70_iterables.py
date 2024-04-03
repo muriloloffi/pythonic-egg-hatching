@@ -2,7 +2,7 @@
 # An iterable is an object that can be iterated over. For example, a list is an
 # iterable.
 # The for loop is used to iterate over an iterable.
-# For exemplo, let's take the object User.
+# For example, let's take the object User.
 
 user = {"name": "Golem", "age": 5006, "can_swim": False}
 

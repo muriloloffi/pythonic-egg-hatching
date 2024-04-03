@@ -32,5 +32,5 @@ invalid_base_str = "10101"
 # int(invalid_base_str, base=37)  # Raises ValueError: int() base must be >= 2 and <= 36
 
 valid_base = "zzz"
-valid_maxium_base = int(valid_base, base=36)
-print(valid_maxium_base)
+valid_maximum_base = int(valid_base, base=36)
+print(valid_maximum_base)

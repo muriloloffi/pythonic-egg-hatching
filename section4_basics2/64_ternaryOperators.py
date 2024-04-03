@@ -1,6 +1,6 @@
 # Ternary Operators
 
-# Teranary operators are a way to write if-else statements in one line
+# Ternary operators are a way to write if-else statements in one line
 # Syntax: <value if true> if <condition> else <value if false>
 
 # Example:

@@ -1,4 +1,4 @@
-# One of the tools available for Python programmers to make iterations easiear
+# One of the tools available for Python programmers to make iterations easier
 # is the range() function.
 # With the range function, you can easily create large sequences of integers to
 # iterate. Let's take the example below:

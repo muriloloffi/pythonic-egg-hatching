@@ -4,7 +4,7 @@
 my_tuple = (1, 2, 3, 4, 5)
 # In lists, we could change the value of an index.
 try:
-    my_tuple[0] = 0
+    my_tuple[0] = 0  # type: ignore
 except TypeError:
     print(
         """

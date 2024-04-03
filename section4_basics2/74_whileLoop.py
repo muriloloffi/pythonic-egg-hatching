@@ -1,9 +1,9 @@
 # Up until now we've only seen statement looping using the "for" keyword.
 # But there's another way to loop through statements: the "while" keyword.
 # For loops are dubbed definite loops, that is, they are used when we know in
-# advance the size of the data stracture we are working on. For instance, a
+# advance the size of the data structure we are working on. For instance, a
 # string has a well defined integer number of elements. But sometimes the data
-# structure we're working on doesn't have an well difined size. That's when we
+# structure we're working on doesn't have an well defined size. That's when we
 # should use the While looping. This looping structures keep looping indefinite-
 # ly as long as the condition given is true. Take the examples below.
 
@@ -31,5 +31,5 @@ else:
         skiped for the break condition"""
     )
 
-# beware that in the case above, the identation could make the else be interpre-
-# ted as part of the "if x >= 40:\" condition
+# beware that in the case above, the indentation could make the else be
+# interpreted as part of the "if x >= 40:\" condition

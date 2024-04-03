@@ -1,6 +1,6 @@
 # Enumerate function
 # The enumerate function is another useful function used with iterables. When
-# enumered receives an iterable, it indexes the iterable with key, value pairs
+# enumerate receives an iterable, it indexes the iterable with key, value pairs
 # in tuples, literally enumerating the values of the iterable starting by zero.
 
 # Exercise time:

@@ -1,4 +1,4 @@
-# Formatte Strings
+# Formatted Strings
 
 name = "Johnny"
 age = 55

@@ -13,7 +13,7 @@
 # age = current_year - int(birth_year)  # Here's a catch: all data from input is string
 # print(age)
 
-# Althought the code above can give us a satisfactory answer, it has some flaws
+# Although the code above can give us a satisfactory answer, it has some flaws
 # For instance, it will throw an avoidable error if the user inputs letters. Also, it
 # won't take into consideration the system's year if the years have passed since the
 # code was originally written.

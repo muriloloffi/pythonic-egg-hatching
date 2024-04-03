@@ -1,7 +1,7 @@
 # The Constructor (__init__)
 
 # The __init__ magic method (or dunder, from Double UNDERline) is called
-# everytime a new object is created. Additional control is possible to be
+# every time a new object is created. Additional control is possible to be
 # built-in to the constructor. For instance, it can have conditional
 # verification and default values for its parameters. See the following example:
 

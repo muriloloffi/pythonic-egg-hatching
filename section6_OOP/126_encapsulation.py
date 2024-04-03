@@ -59,7 +59,7 @@ print(x.bar)
 # behavior in it and inherits this behavior to its children, thus keeping the
 # logic and implementation in a single place.
 
-# For example: Let's say a videogame has multiple character classes and all of
+# For example: Let's say a video-game has multiple character classes and all of
 # then hold a common method, which is sign_in. We can keep yourselves from
 # repeating by creating a class parent to the characters, which we'll call User,
 # that defines this method.

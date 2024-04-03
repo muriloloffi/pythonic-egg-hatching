@@ -13,7 +13,7 @@ class PlayerCharacter:
 
     def __init__(self, name, age):
         # Here, we access the Class Object Attribute "membership", without using
-        # the keyword self. But it can also be refered to with self.membership
+        # the keyword self. But it can also be referred to with self.membership
         if PlayerCharacter.membership:
             self.name = name
             self.age = age
@@ -27,6 +27,7 @@ class PlayerCharacter:
         print(f"{greeting}, let's run!")
 
 
+# cspell:disable-next-line
 player1 = PlayerCharacter("Golias", 20)
 
 player1.run("Hello")

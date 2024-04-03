@@ -5,7 +5,7 @@
 # Don't take it as a "black box logic". Test it. Experiment with code to try to
 # explore the inner workings of the concept. For example, when learning what
 # the keyword self is in the scope of class, try returning self from a method.
-# Run that method in a stantiated object and see what it returns.
+# Run that method in a instantiated object and see what it returns.
 
 
 class PlayerCharacter:

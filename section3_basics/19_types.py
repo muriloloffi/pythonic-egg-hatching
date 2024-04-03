@@ -1,4 +1,4 @@
-#The 8 fundamental data types of Python 3.
+# The 8 fundamental data types of Python 3.
 int
 float
 bool
@@ -8,11 +8,11 @@ tuple
 set
 dict
 
-#Classes -> custom types
-  #To be seen in the future
+# Classes -> custom types
+# To be seen in the future
 
-#Specialized Data Types
-  #Can be taken from Modules (e.g. kind of extensions)
+# Specialized Data Types
+# Can be taken from Modules (e.g. kind of extensions)
 
-None #this is a little "special"
-  #means nothing
+None  # this is a little "special"
+# means nothing

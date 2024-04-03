@@ -5,20 +5,22 @@
 # belong to an object. Invocations of methods are only possible through the
 # parent object.
 
-def some_random_stuff() -> None:
-  pass
 
-some_string = 'abcdefu'
+def some_random_stuff() -> None:
+    pass
+
+
+some_string = "abcdefu"
 
 # Function call
 some_random_stuff()
 
 print(
-  # Method call below
-  some_string.capitalize() 
+    # Method call below
+    some_string.capitalize()
 )
 
 print(
-  # Method call below
-  'helllooo'.swapcase()
+    # Method call below
+    "helllooo".swapcase()
 )

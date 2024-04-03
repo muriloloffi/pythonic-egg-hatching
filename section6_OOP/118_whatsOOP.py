@@ -2,9 +2,9 @@
 
 # During the late 60s and early 70s, programmers came up with the concept of
 # object oriented programming (OOP) as a way to organize the structure of the
-# code into a more readable, reusable and maitanable format. At that time, there
+# code into a more readable, reusable and maintainable format. At that time, there
 # were a lot of changes happening in the way code is written and OOP stood out
-# as one of the most proeminent and is the most prevalent paradigm nowadays.
+# as one of the most prominent and is the most prevalent paradigm nowadays.
 
 # In OOP, data is structured in so called objects, which are meant to represent
 # a more intuitive and natural representation of real world objects. In reality,
@@ -12,7 +12,7 @@
 # object is comprised of variables and functions that have a common purpose. A
 # working object in the computer's memory is called an instance. That is brought
 # up by a blueprint, called a class. In other words, classes are the piece of
-# code that declares what every istance of an object should look like, i.e. what
+# code that declares what every instance of an object should look like, i.e. what
 # variables they should contain, what functions they can perform (called methods
 # when these belong to an object) and even who has access to what part of the
 # object.
